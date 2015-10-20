@@ -1,5 +1,12 @@
 require "rubot/version"
 
 module Rubot
-  # Your code goes here...
+
+	NORTH = 'NORTH'
+	WEST = 'WEST'
+	EAST = 'EAST'
+	SOUTH = 'SOUTH'
+
+	class RobotToy
+	end
 end

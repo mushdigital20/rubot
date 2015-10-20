@@ -6,8 +6,8 @@ require 'rubot/version'
 Gem::Specification.new do |spec|
   spec.name          = "rubot"
   spec.version       = Rubot::VERSION
-  spec.authors       = [" Pedro Mello"]
-  spec.email         = ["pedrom@lympic.co.nz "]
+  spec.authors       = ["Pedro Mello"]
+  spec.email         = ["pedro@mushdigital.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
