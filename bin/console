@@ -12,3 +12,6 @@ require "rubot"
 
 require "irb"
 IRB.start
+
+
+puts 'test'

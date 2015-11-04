@@ -6,6 +6,8 @@ class Rubot
 	WEST = 'WEST'
 	EAST = 'EAST'
 	SOUTH = 'SOUTH'
+	X_SIZE = 5
+	Y_SIZE = 5
 
 	def place(x,y,f)
 		@x = x
@@ -14,6 +16,16 @@ class Rubot
 	end
 
 	def move
+		case @f
+		when NORTH
+			@y += 1 if @y < Y_SIZE 
+		when WEST
+			@x -= 1 if @x > 0
+		when EAST
+			@x += 1 if @x < X_SIZE
+		when SOUTH
+			@y -= 1 if @y > 0
+		end
 	end
 
 	def left
